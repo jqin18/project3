@@ -54,7 +54,6 @@
            <!-- Inputs for our ML model -->
             <form action="{{ url_for('predict')}}" method="post">
               <input type="text" name="year" placeholder="YYYY-MM-DD" required="required" />
-              <!-- <input type="text" name="distance" placeholder="Distance" required="required"/> -->
               <button type="submit" class="btn btn-primary btn-block btn-large">Predict Temperature!</button>
             </form>
       
@@ -62,5 +61,18 @@
           <br>
         <b> {{ prediction_text }} </b>
        </div>
+
+       <div class="card">
+        <div class="card text-center">
+          <div class="col-sm-12">
+            <h5 class="card-title_1">Predicted Global Temperature</h5>
+           <div class="card-body">
+            <img src="/static/trend.png" alt="predicted global temperature until 2035">
+            <p class="card-text_1">
+            </p> 
+      </div>
+    </div>
+  </div> 
+           </div> 
 </body>
 </html>

@@ -18,7 +18,6 @@ def predict():
     """Grabs the input values and uses them to make prediction"""
     year = str(request.form['year'])
     future_date = pd.DataFrame({'ds':[year]})
-    # future = m.make_future_dataframe(periods=year)
     prediction = model.predict(future_date)
     data = prediction[["ds", "yhat"]]
     
