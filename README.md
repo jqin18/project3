@@ -11,4 +11,7 @@ The prophet model is trained with 100 years of global average temperature data s
 Dataset source: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download&select=GlobalTemperatures.csv
 
 Presentation slide: https://docs.google.com/presentation/d/1LGLmRKZZGVHADCXW8vO_MqOmADz-SEbRDuhDAnzLcH8/edit#slide=id.p
-![image]
+
+Data model: [data_model.ipynb](./data_model.ipynb)
+
+Python Flask: [app.py](./app.py)
